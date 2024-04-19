@@ -31,5 +31,5 @@ public class UserController {
         return "login";
     }
 
-    // Altri metodi per la gestione dell'autenticazione
+
 }
