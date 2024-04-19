@@ -19,9 +19,8 @@ public record EventPayload(@NotEmpty(message = "manca il titolo")
                               @NotNull(message = "aggiungi la data")
                               LocalDate date,
 
-                              @NotNull(message = "aggiungi il numero di partecipanti")
-                              int numberOfAttendees
-
+                              @NotNull(message = "aggiungi il numero di sedute")
+                              int AvailableSeats
 
 )  {
 }

@@ -20,7 +20,7 @@ public class Event {
     private String location;
     private int availableSeats;
 
-    // getters and setters
+
     public Long getId() {
         return id;
     }
