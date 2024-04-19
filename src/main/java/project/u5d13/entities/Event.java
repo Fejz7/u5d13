@@ -2,12 +2,14 @@ package project.u5d13.entities;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
+import jakarta.persistence.Table;
 import org.springframework.data.annotation.Id;
-import project.u5d13.repository.EventRepository;
+import project.u5d13.repository.EventDAO;
 
 import java.time.LocalDateTime;
 
 @Entity
+@Table(name = "events")
 public class Event {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import project.u5d13.entities.Event;
 
 
-public interface EventRepository extends JpaRepository<Event, Long> {
+public interface EventDAO extends JpaRepository<Event, Long> {
 
 }
